@@ -1,0 +1,25 @@
+{   
+    "name": "L123", 
+    "objectList":  [
+        "L1_01.glb",
+        "L1_02.glb",
+        "L1_03.glb",
+        "L1_04.glb",
+        "L2_01.glb",
+        "L2_02.glb",
+        "L2_03.glb",
+        "L2_04.glb",
+        "L3_01.glb",
+        "L3_02.glb",
+        "L3_03.glb",
+        "L3_04.glb",
+        "L3_05.glb",
+        "L3_06.glb",
+        "L3_07.glb",
+        "L3_08.glb",
+        "L3_11.glb",
+        "L3_12.glb"
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

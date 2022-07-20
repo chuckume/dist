@@ -1,0 +1,15 @@
+{
+	"G_arches":[
+		"OBJ_01_GLTF.gltf",
+		"OBJ_02_GLTF.gltf",
+		"OBJ_04_GLTF.gltf",
+		"OBJ_05_GLTF.gltf",
+		"OBJ_06_GLTF.gltf"
+	],
+    "G_autres": [ "objet-1-GLTF.gltf" ],
+    "G_cubes" : [
+		"cubarches_01.glb",
+		"cubarches_02.glb"
+	]
+}
+

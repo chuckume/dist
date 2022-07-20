@@ -1,0 +1,14 @@
+{"name": "testGenerator", 
+    "structureShape": "x2_y2_z2_m0_rF", 
+     "objectPosition":["0_0_0","1_1_0", "1_0_0", "0_1_0",
+        "0_0_1","1_1_1", "1_0_1", "0_1_1"], 
+     "objectList":
+     ["testCubes","testArches"],
+    "objectIsReusable":true,
+"objectIsRandom":true,
+"colorList":["210f04","452103","690500","934b00","bb6b00"],
+"colorIsReusable":false,
+"colorIsRandom":true}
+
+
+

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FXHASH project</title>
+    <meta charset="utf-8">
+    <script id="fxhash-snippet">
+      //---- do not edit the following code (you can indent as you wish)
+      let search = new URLSearchParams(window.location.search)
+      let alphabet = "123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ"
+      var fxhash = search.get('fxhash') || "oo" + Array(49).fill(0).map(_=>alphabet[(Math.random()*alphabet.length)|0]).join('')
+      let b58dec = str=>[...str].reduce((p,c)=>p*alphabet.length+alphabet.indexOf(c)|0, 0)
+      let fxhashTrunc = fxhash.slice(2)
+      let regex = new RegExp(".{" + ((fxhash.length/4)|0) + "}", 'g')
+      let hashes = fxhashTrunc.match(regex).map(h => b58dec(h))
+      let sfc32 = (a, b, c, d) => {
+        return () => {
+          a |= 0; b |= 0; c |= 0; d |= 0
+          var t = (a + b | 0) + d | 0
+          d = d + 1 | 0
+          a = b ^ b >>> 9
+          b = c + (c << 3) | 0
+          c = c << 21 | c >>> 11
+          c = c + t | 0
+          return (t >>> 0) / 4294967296
+        }
+      }
+      var fxrand = sfc32(...hashes)
+      // true if preview mode active, false otherwise
+      // you can append preview=1 to the URL to simulate preview active
+      var isFxpreview = search.get('preview') === "1"
+      // call this method to trigger the preview
+      function fxpreview() {
+        console.log("fxhash: TRIGGER PREVIEW")
+      }
+      //---- /do not edit the following code
+    </script>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./sktech.js"> </script>
+    <script src="./three.js"> </script>
+    <script src="./GLTFLoader.js"> </script>
+    
+
+    <!-- if you need to import js scripts do it here -->
+  </head>
+  <body>
+    <span style="position:absolute;top:0px;left:0px;"><input type="button" value="Toggle Wireframe" onclick="mesh.material.wireframe=!mesh.material.wireframe;meshFloor.material.wireframe=!meshFloor.material.wireframe;"/></span>
+
+   
+    <script>
+      // https://redstapler.co/threejs-realistic-light-shadow-tutorial/
+
+      // https://www.youtube.com/watch?v=
+      //https://github.com/saucecode/threejs-demos/tree/master/03_LightAndShadow
+        // CREATE SCENE
+        var scene, camera, renderer, mesh;
+var meshFloor, ambientLight, light;
+
+var keyboard = {};
+var player = { height:1.8, speed:0.2, turnSpeed:Math.PI*0.02 };
+var USE_WIREFRAME = false;
+
+function init(){
+	scene = new THREE.Scene();
+	camera = new THREE.PerspectiveCamera(90, 1280/720, 0.1, 1000);
+
+	camera.position.set(0, player.height, -5);
+	camera.lookAt(new THREE.Vector3(0,player.height,0));
+  
+  const loader = new THREE.GLTFLoader();
+
+  let cube;
+  // const glb = await loadGltfs(['objet-1-GLTF.gltf'])
+  // cube = glb[0]
+  // scene.add(cube)
+      loader.load('assets/objet-1-GLTF.gltf', (gltf) => {
+          cube = gltf.scene;  
+	        // cube.castShadow = true;
+          scene.add( cube );
+
+        }
+      );
+
+	mesh = new THREE.Mesh(
+		new THREE.BoxGeometry(1,1,1),
+		new THREE.MeshPhongMaterial({color:0xff4444, wireframe:USE_WIREFRAME})
+	);
+	mesh.position.y += 1;
+	// The cube can have shadows cast onto it, and it can cast shadows
+	// mesh.receiveShadow = true;
+	// mesh.castShadow = true;
+	scene.add(mesh);
+	
+	createFloor(scene)
+	
+	addLight(scene)
+	
+	
+	renderer = new THREE.WebGLRenderer();
+	renderer.setSize(1280, 720);
+	
+	// Enable Shadows in the Renderer
+	renderer.shadowMap.enabled = true;
+	renderer.shadowMap.type = THREE.BasicShadowMap;
+	
+	document.body.appendChild(renderer.domElement);
+
+  renderer.setSize( window.innerWidth, window.innerHeight );
+      // document.body.appendChild( renderer.domElement );
+	
+	animate();
+}
+
+function animate(){
+	requestAnimationFrame(animate);
+
+// https://redstapler.co/threejs-realistic-light-shadow-tutorial
+  // console.log(scene.children[4].children[0])
+
+  // scene.children[4].children[0].receiveShadow = true;
+  const mat1 = new THREE.MeshPhongMaterial({color:0xff4444})
+
+  scene.traverse(n => { if ( n.isMesh ) {
+  n.castShadow = true; 
+  n.receiveShadow = true;
+  if(n.material.map) n.material.map.anisotropy = 16; 
+  }});
+  scene.children[4].children[0].material = mat1 
+	scene.children[4].children[0].position.y = 3
+	scene.children[4].children[0].position.z = 1
+  // scene.children[4].children[0].castShadow  = true;
+  scene.children[4].children[0].rotation.x += 0.01;
+  scene.children[4].children[0].rotation.y += 0.02;
+
+
+	mesh.rotation.x += 0.01;
+	mesh.rotation.y += 0.02;
+	
+	if(keyboard[87]){ // W key
+		camera.position.x -= Math.sin(camera.rotation.y) * player.speed;
+		camera.position.z -= -Math.cos(camera.rotation.y) * player.speed;
+	}
+	if(keyboard[83]){ // S key
+		camera.position.x += Math.sin(camera.rotation.y) * player.speed;
+		camera.position.z += -Math.cos(camera.rotation.y) * player.speed;
+	}
+	if(keyboard[65]){ // A key
+		camera.position.x += Math.sin(camera.rotation.y + Math.PI/2) * player.speed;
+		camera.position.z += -Math.cos(camera.rotation.y + Math.PI/2) * player.speed;
+	}
+	if(keyboard[68]){ // D key
+		camera.position.x += Math.sin(camera.rotation.y - Math.PI/2) * player.speed;
+		camera.position.z += -Math.cos(camera.rotation.y - Math.PI/2) * player.speed;
+	}
+	
+	if(keyboard[37]){ // left arrow key
+		camera.rotation.y -= player.turnSpeed;
+	}
+	if(keyboard[39]){ // right arrow key
+		camera.rotation.y += player.turnSpeed;
+	}
+	
+	renderer.render(scene, camera);
+}
+
+function keyDown(event){
+	keyboard[event.keyCode] = true;
+}
+
+function keyUp(event){
+	keyboard[event.keyCode] = false;
+}
+
+window.addEventListener('keydown', keyDown);
+window.addEventListener('keyup', keyUp);
+
+window.onload = init;
+
+
+async function loadGltfs(pathList) {
+        const loader = new THREE.GLTFLoader();
+        const promises = [];
+        for (const filePath of pathList){
+            promises.push(loader.loadAsync(filePath));
+        }
+        const arr = await Promise.all(promises);
+        const gltfs = [];
+        for (const object of arr){
+            const obj = object.scene
+            gltfs.push(obj)
+        }
+        return gltfs
+    } 
+
+
+    
+    function createFloor(scene){
+    meshFloor = new THREE.Mesh(
+		new THREE.PlaneGeometry(10,10, 10,10),
+		// MeshBasicMaterial does not react to lighting, so we replace with MeshPhongMaterial
+		new THREE.MeshPhongMaterial({color:0xffffff, wireframe:USE_WIREFRAME})
+		// See threejs.org/examples/ for other material types
+	);
+	meshFloor.rotation.x -= Math.PI / 2;
+	// Floor can have shadows cast onto it
+	meshFloor.receiveShadow = true;
+	scene.add(meshFloor);
+  return scene
+
+  }
+
+  
+  function addLight(scene){
+	// LIGHTS
+	ambientLight = new THREE.AmbientLight(0xffffff, 0.2);
+	scene.add(ambientLight);
+	
+	light = new THREE.PointLight(0xffffff, 0.8, 18);
+	light.position.set(-3,6,-3);
+	light.castShadow = true;
+	// Will not light anything closer than 0.1 units or further than 25 units
+	light.shadow.camera.near = 0.1;
+	light.shadow.camera.far = 25;
+	scene.add(light);
+    return scene
+  }
+
+    </script>
+    <!-- WEBPACK will inject the bundle.js here -->
+  </body>
+</html>

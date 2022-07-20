@@ -1,0 +1,7 @@
+
+{   
+    "name": "geometryList", 
+    "objectList":  ["sphere"],
+    "isReusable":false,
+    "isRandom":true
+}

@@ -1,0 +1,39 @@
+{   
+    "containerName": "cel2_01_0", 
+    "containerStructureShape": "x1_y1_z1_m0_rF", 
+    "objectData":{
+        "objectPosition":[
+            "0_0_0",	"0_0_0"           
+            ], 
+        "objectList":   ["cel2_01_1", "cel2_01_2"],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "colorData" : {
+        "colorList":["edc4b3","e6b8a2","deab90","d69f7e","cd9777","c38e70","b07d62","9d6b53","8a5a44","774936"],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "rotationData" :{
+        "x": {
+            "rotationList":[0,90,180,270],
+            "isRandom": false, 
+            "isReusable":false 
+            },
+        "y": {
+            "rotationList":[0,90,180,270],
+            "isRandom": true, 
+            "isReusable":true 
+            },
+        "z": {
+            "rotationList":[0,90,180,270],
+            "isRandom": false, 
+            "isReusable":false
+            }
+    }
+}
+
+
+
+
+

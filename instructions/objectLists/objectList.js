@@ -1,0 +1,1 @@
+let objectList=[{name:"archesList",objectList:["OBJ_01_GLTF.gltf","OBJ_02_GLTF.gltf","OBJ_04_GLTF.gltf","OBJ_05_GLTF.gltf"],isReusable:!1,isRandom:!0}];

@@ -1,0 +1,10 @@
+{
+    "name" : "L0",
+    "objectList":  [
+    "L0_01.glb",
+    "L0_02.glb",
+    "L0_03.glb",
+    "L0_04.glb"],
+    "isReusable":false,
+    "isRandom":true
+}

@@ -1,0 +1,40 @@
+{   
+    "containerName": "tw_4_bas", 
+    "containerStructureShape": "x2_y2_z2_m0_rF", 
+    "objectData":{
+        "objectPosition":[
+            "0_0_0","1_0_0",
+            "0_0_1","1_0_1"
+            ], 
+        "objectList":   ["L0"],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "colorData" : {
+        "colorList":["edc4b3","e6b8a2","deab90","d69f7e","cd9777","c38e70","b07d62","9d6b53","8a5a44","774936"],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "rotationData" :{
+        "x": {
+            "rotationList":[0,90,180,270],
+            "isRandom": false, 
+            "isReusable":false 
+            },
+        "y": {
+            "rotationList":[0,90,180,270],
+            "isRandom": true, 
+            "isReusable":true 
+            },
+        "z": {
+            "rotationList":[0,90,180,270],
+            "isRandom": false, 
+            "isReusable":false
+            }
+    }
+}
+
+
+
+
+

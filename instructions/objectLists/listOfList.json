@@ -1,0 +1,6 @@
+{   
+    "name": "listOfList", 
+    "objectList":  ["geometryList", "generatorList"],
+    "isReusable":false,
+    "isRandom":true
+}

@@ -1,0 +1,69 @@
+html{
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0%;
+  height: 100%;
+  background-color: black;
+
+  /* leave it to hide the scrollbars */
+  /* overflow: hidden; */
+}
+
+  
+
+/* .sceneContainer {
+  display: block;
+  /* width: 100%;  /* let our container decide our size */
+  /* height: 100%; */ 
+  /* margin: 0 auto; */
+  /* margin: auto; */
+  /* width: 40%;  */
+  /* border: 5px solid #FFFF00;
+  padding: 10px; */
+ */
+
+  .buttons {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .square {
+      position: relative;
+      width: 80vmin;
+      /* border: solid red 5px; */
+      box-sizing: border-box;
+    }
+    
+    .square:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+    
+    .content {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
