@@ -1,0 +1,9 @@
+{
+    "finalContainerName":"testArches",
+    "finalContainerName1":"testNew5",
+    "finalContainerName2":"testNew5",
+
+    "containerList":"./instructions/config/containerList.json",
+    "objectFolder":"instructions/objectLists/",
+    "objectNames":"./instructions/config/objectNames.json"
+}

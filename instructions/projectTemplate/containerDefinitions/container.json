@@ -1,5 +1,8 @@
 {   
-    "containerName": "testNew5", 
+    "containerName": "testCubes", 
+    "containerName1": "testNew5", 
+    "containerName2": "testNew5", 
+
     "containerStructureShape": "x2_y2_z1_m0_rF", 
     "objectData":{
         "objectPosition":[], 

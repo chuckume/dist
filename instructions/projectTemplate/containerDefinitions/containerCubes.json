@@ -1,9 +1,9 @@
 {   
-    "containerName": "testNew", 
+    "containerName": "testCubes", 
     "containerStructureShape": "x1_y2_z1_m0_rF", 
     "objectData":{
         "objectPosition":["0_0_0","0_1_0"], 
-        "objectList":   ["OBJ_01_GLTF.gltf","OBJ_02_GLTF.gltf","OBJ_04_GLTF.gltf","OBJ_05_GLTF.gltf","cubarches_01.glb","cubarches_02.glb"],
+        "objectList":   ["cubarches_01.glb","cubarches_02.glb"],
         "isReusable":false,
         "isRandom":true
     },

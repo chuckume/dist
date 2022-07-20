@@ -1,7 +1,0 @@
-
-{   
-    "name": "cubesList", 
-    "objectList":  ["cubarches_01.glb", "cubarches_02.glb",  "listOfList"],
-    "isReusable":false,
-    "isRandom":true
-}
