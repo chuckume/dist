@@ -18,19 +18,19 @@
         "isRandom":true
     },
     "colorData" : {
-        "colorList":["none"],
-        "isReusable":false,
+        "colorList":["red"],
+        "isReusable":true,
         "isRandom":true
     },
     "rotationData" :{
         "x": {
-            "rotationList":[90,180,270],
+            "rotationList":[0,90,180,270],
             "isRandom": false, 
             "isReusable":false 
             },
         "y": {
-            "rotationList":[0,90,180,270],
-            "isRandom": true, 
+            "rotationList":[0],
+            "isRandom": false, 
             "isReusable":true 
             },
         "z": {
