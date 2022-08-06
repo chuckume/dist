@@ -51,7 +51,7 @@ body {
     
     .square {
       position: relative;
-      width: 80vmin;
+      width: 99vmin;
       /* border: solid red 5px; */
       box-sizing: border-box;
     }

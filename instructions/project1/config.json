@@ -1,5 +1,6 @@
 {
     "finalContainerName":"zz_final",
+    "fxhashProjectName":"CityBlock",
     "containerList":"./instructions/config/containerList.json",
     "objectFolder":"instructions/objectLists/",
     "objectNames":"./instructions/config/objectNames.json"
