@@ -1,5 +1,5 @@
 { "lookAt": {"x":0, "y":4.8, "z":0},
-  "backgroundColor": [
+ "backgroundColor": [
     "4d5a62",	"5e6d77",	"485963",	"536875",				
 "7d3122",	"60261c",	"8d4031",	"7e3030",				
 "dceaf4",	"cddbec",	"b3cbe8",	"c3dfea",	"cde8f4",	"c6d8df",	"e6f0f4",	"d6edfb",
@@ -8,10 +8,16 @@
 "ffa76f",	"ffcc89",	"bb9b77",	"fff689",	"ffd16f",	"bb9977",	"bba977",	"bcffff",
 "84dfff",	"a4b9c7",	"b58277",	"758bbc",	"acc8ff",	"dee8ff",	"659fc8",	"ffffd8",
 "a63b18",	"a66024",	"38332f",	"a69924",	"a66518",	"191716",	"44413b",	"4ea6a6",
-"2278a6",	"384b5b",	"47211b",	"1a254e",	"3e5ca6",	"7785a6",	"13345c",	"a6a66f"
+"2278a6",	"384b5b",	"47211b",	"1a254e",	"3e5ca6",	"7785a6",	"13345c",	"a6a66f",
+    "cdb1a0",	"ffcc89",	"d49874",	"ffe6b9",	"ffd16f",	"cabc96",	"bba977",	"bcffff",
+    "bfe1ed",	"bacad4",	"cdf4ff",	"badbdd",	"b8ddff",	"def1ff",	"659fc8",	"eff1e6",
+    "1f303a",	"001f48",	"1a3f56",	"000f2b",	"001e60",	"212940",	"293553",	"290000",
+    "1a1a17",	"2a211a",	"1f0700",	"2a1615",	"2b1500",	"140900",	"1e4754",	"000018",
 
+    "fba706",	"ff7a03",	"bf3914",	"036eff",	"4a03ff",	"d5d5d5",	"8e8e8e",	"404040",
+    "f98709",	"ff5403",	"bf4814",	"03a3ff",	"392bff",	"aeaeae",	"3f3f3f",	"2b2b2b",
 
-
+    "ffffff",	"000000"
   ],
   "configFrame" : {
     "frameCubeSize": 22 ,
