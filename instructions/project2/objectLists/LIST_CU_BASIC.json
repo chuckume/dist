@@ -1,0 +1,14 @@
+{   
+    "name": "LIST_CU_BASIC", 
+    "objectList":  [
+        "CU01_1",
+        "CU01_1",
+        "CU01_1",
+        "CU01_1",
+        "CU02_ALL",
+        "CU03_ALL"
+        
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

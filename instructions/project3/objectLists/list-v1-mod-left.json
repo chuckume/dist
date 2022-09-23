@@ -1,0 +1,19 @@
+{
+    "name" : "list-v1-mod-left",
+    "objectList":  [
+    
+        "01_mod_left_01.glb",
+        "01_mod_left_02.glb",
+        "01_mod_left_03.glb",
+        "01_mod_left_04.glb",
+        "01_mod_left_05.glb",
+        "01_mod_left_06.glb",
+        "01_mod_left_07.glb"
+        
+  
+
+   
+],
+    "isReusable":false,
+    "isRandom":true
+}

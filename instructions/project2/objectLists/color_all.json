@@ -1,0 +1,10 @@
+{   
+    "name": "color_all", 
+    "objectList":  [
+        "0x880808"
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

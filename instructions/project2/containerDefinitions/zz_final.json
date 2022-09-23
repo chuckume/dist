@@ -1,0 +1,58 @@
+{   
+    "containerName": "zz_final", 
+    "containerStructureShape": "x1_y1_z1_m0_rF", 
+    "objectData":{
+        "objectPosition":[], 
+        "objectList":   [
+            "XL01_CU",
+            "XL02_CU",
+            "XL03_CU",
+            "XL03_CU"
+            
+         
+            ],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "colorData" : {
+        "colorList":[
+            "FFFFFF"
+            
+
+            
+
+
+
+
+       
+
+
+
+
+    ],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "rotationData" :{
+        "x": {
+            "rotationList":[0],
+            "isRandom": false, 
+            "isReusable":false
+            },
+        "y": {
+            "rotationList":[0],
+            "isRandom": false, 
+            "isReusable":false
+            },
+        "z": {
+            "rotationList":[0],
+            "isRandom": false, 
+            "isReusable":false
+            }
+    }
+}
+
+
+
+
+

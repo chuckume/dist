@@ -1,0 +1,12 @@
+{   
+    "name": "LPZ_2", 
+    "objectList":  [
+        "CU01_ALL",
+        "CU01_2",
+        "CU01_1"
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

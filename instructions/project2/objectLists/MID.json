@@ -1,0 +1,10 @@
+{   
+    "name": "MID", 
+    "objectList":  [
+        "OB_11.glb"
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

@@ -1,0 +1,6 @@
+{   
+    "name": "L1L2L3", 
+    "objectList":  ["LI_bur", "LI_full"],
+    "isReusable":true,
+    "isRandom":true
+}

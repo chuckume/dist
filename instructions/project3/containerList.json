@@ -1,0 +1,137 @@
+[
+  "v0-mod-dalle.json",
+
+  "v1-mod-left-01.json",
+  "v1-mod-left-02.json",
+  "v1-mod-left-03.json",
+  "v1-mod-left-04.json",
+  "v1-mod-left-05.json",
+  "v1-mod-left-06.json",
+  "v1-mod-left-07.json",
+
+  "v1-mod-right-01.json",
+  "v1-mod-right-02.json",
+  "v1-mod-right-03.json",
+  "v1-mod-right-04.json",
+  "v1-mod-right-05.json",
+  "v1-mod-right-06.json",
+  "v1-mod-right-07.json",
+  "v1-mod-right-08.json",
+  "v1-mod-right-09.json",
+
+  "v1-str-esc-01.json",
+  "v1-str-esc-02.json",
+  "v1-str-esc-03.json",
+  "v1-str-esc-04.json",
+  "v1-str-esc-05.json",
+  "v1-str-esc-06.json",
+
+  "v1-str-high-01.json",
+  "v1-str-high-02.json",
+  "v1-str-high-03.json",
+  "v1-str-high-04.json",
+  "v1-str-high-05.json",
+  "v1-str-high-06.json",
+  "v1-str-high-07.json",
+
+  "v1-str-low-01.json",
+  "v1-str-low-02.json",
+  "v1-str-low-03.json",
+  "v1-str-low-04.json",
+  "v1-str-low-05.json",
+
+  "v1-mod-all.json",
+  "v1-mod-both.json",
+  "v1-mod-left.json",
+  "v1-mod-right.json",
+
+  "v1-str-col.json",
+  "v1-str-esc.json",
+
+  "v1-str-all.json",
+  "v1-str-both.json",
+  "v1-str-high.json",
+  "v1-str-low.json",
+
+
+
+  "v2-mod-high-01.json",
+  "v2-mod-high-02.json",
+  "v2-mod-high-03.json",
+  "v2-mod-high-04.json",
+  "v2-mod-high-05.json",
+  "v2-mod-high-06.json",
+  "v2-mod-high-07.json",
+  "v2-mod-high-08.json",
+  "v2-mod-high-09.json",
+  "v2-mod-high-10.json",
+
+  "v2-mod-low-01.json",
+  "v2-mod-low-02.json",
+  "v2-mod-low-03.json",
+  "v2-mod-low-04.json",
+  "v2-mod-low-05.json",
+  "v2-mod-low-06.json",
+  "v2-mod-low-07.json",
+  "v2-mod-low-08.json",
+  "v2-mod-low-09.json",
+  "v2-mod-low-10.json",
+
+  "v2-str-esc-01.json",
+  "v2-str-esc-02.json",
+  "v2-str-esc-03.json",
+  "v2-str-esc-04.json",
+  "v2-str-esc-05.json",
+  "v2-str-esc-06.json",
+  "v2-str-esc-07.json",
+
+  "v2-str-high-01.json",
+  "v2-str-high-02.json",
+  "v2-str-high-03.json",
+  "v2-str-high-04.json",
+  "v2-str-high-05.json",
+  "v2-str-high-06.json",
+  "v2-str-high-07.json",
+  "v2-str-high-08.json",
+
+  "v2-str-low-01.json",
+  "v2-str-low-02.json",
+  "v2-str-low-03.json",
+  "v2-str-low-04.json",
+  "v2-str-low-05.json",
+
+  "v2-mod-all.json",
+  "v2-mod-both.json",
+  "v2-mod-high.json",
+  "v2-mod-low.json",
+
+  "v2-str-col.json",
+  "v2-str-esc.json",
+
+  "v2-str-all.json",
+  "v2-str-both.json",
+  "v2-str-high.json",
+  "v2-str-low.json",
+
+  "x-v1-all.json",
+  "x-v1-final.json",
+  "x-v1-mix-01.json",
+  "x-v1-mix-02.json",
+  "x-v1-mix-03.json",
+  "x-v1-mix-04.json",
+  "x-v1-mix-05.json",
+
+
+  "x-v2-all.json",
+  "x-v2-final.json",
+  "x-v2-mix-01.json",
+  "x-v2-mix-02.json",
+  "x-v2-mix-03.json",
+  "x-v2-mix-04.json",
+  "x-v2-mix-05.json",
+
+
+  "zz-all.json",
+  "zz-final.json",
+  "zz-scene.json"
+]

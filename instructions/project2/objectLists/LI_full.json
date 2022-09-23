@@ -1,0 +1,18 @@
+{   
+    "name": "LI_full", 
+    "objectList":  [
+        "0_full_01",
+        "0_full_02",
+        "0_full_03",
+        "0_full_04",
+        "0_full_05",
+        "0_full_06",
+        "0_full_07",
+        "0_full_08"
+     
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

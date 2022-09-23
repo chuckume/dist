@@ -1,0 +1,19 @@
+{   
+    "name": "LI_low", 
+    "objectList":  [
+        "0_low_01",
+        "0_low_02",
+        "0_low_03",
+        "0_low_04",
+        "0_low_05",
+        "0_low_06",
+        "0_low_07",
+        "0_low_08"
+   
+     
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

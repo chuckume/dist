@@ -52,8 +52,11 @@ body {
     .square {
       position: relative;
       width: 99vmin;
+      /* width: 65vw; height: 48.75vw;  */
+
       /* border: solid red 5px; */
       box-sizing: border-box;
+      /* background: darkred; */
     }
     
     .square:after {

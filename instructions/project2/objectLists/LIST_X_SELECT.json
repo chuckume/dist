@@ -1,0 +1,25 @@
+{   
+    "name": "LIST_X_SELECT", 
+    "objectList":  [
+        
+        
+            "TW01_H01",
+        
+           
+         
+            "TW01_H05",
+            "TW01_H06",
+            "TW01_H07",
+            "TW01_H08",
+           
+         
+            "TW01_H12"
+
+
+
+
+        
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

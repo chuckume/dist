@@ -1,0 +1,9 @@
+{
+    "finalContainerName":"zz-scene",
+    "finalContainerName1":"testNew5",
+    "finalContainerName2":"testNew5",
+    "fxhashProjectName":"DeambulatoireNo8",
+    "containerList":"./instructions/config/containerList.json",
+    "objectFolder":"instructions/objectLists/",
+    "objectNames":"./instructions/config/objectNames.json"
+}

@@ -1,0 +1,104 @@
+{ "lookAt": {"x":0, "y":-0.2, "z":0},
+  "backgroundColor": [
+    
+    "cdb1a0",	"ffcc89",	"d49874",	"ffe6b9",	"ffd16f",	"cabc96",	"bba977",	"bcffff",
+    "bfe1ed",	"bacad4",	"cdf4ff",	"badbdd",	"b8ddff",	"def1ff",	"659fc8",	"eff1e6",
+    "1f303a",	"001f48",	"1a3f56",	"000f2b",	"001e60",	"212940",	"293553",	"290000",
+    "1a1a17",	"2a211a",	"1f0700",	"2a1615",	"2b1500",	"140900",	"1e4754",	"000018",
+
+    "fba706",	"ff7a03",	"bf3914",	"036eff",	"4a03ff",	"d5d5d5",	"8e8e8e",	"404040",
+    "f98709",	"ff5403",	"bf4814",	"03a3ff",	"392bff",	"aeaeae",	"3f3f3f",	"2b2b2b",
+
+    "ffffff",	"000000"
+
+
+
+    
+    
+    
+    
+          
+        
+    
+
+  ],
+  "configFrame" : {
+    "frameCubeSize": 13 ,
+    "basicCubeSize": 13 ,
+    "frameSizeRandom": true,
+    "frameMinimalSize": 2,
+    "frameSizeX": 13,
+    "frameSizeY": 13,
+    "frameSizeZ": 13,
+    "animate": true
+  },
+  "configCamera" :{
+    "width" : 10 ,
+    "height" : 5 ,
+    "near" : 1.00, 
+    "fov" : 3,
+    "far" : 2000,
+    "positionX" : 300,
+    "positionY" : 150,
+    "positionZ" : 150 ,
+    "rotationX" : 0,
+    "rotationY" : 0,
+    "rotationZ": 0
+  },
+  "lightConfig": [
+            {"lightType":"Hemisphere",
+                "skyColor" : "white", 
+                "groundColor" : "#2f5092",
+
+                "intensity" : 0.2,
+              "position":{"x":24, "y": 24, "z":24}},
+
+
+
+
+             {"lightType":"Directional",
+                  "color": [
+                    
+                    "#8f5529",	"#8f3e29",	"#32608f",	"#285b8f",
+                    "#755842",	"#754d42",	"#496077",	"#425b75",
+                    "#a9510e",	"#a92e0e",	"#195fa7",	"#0d5aaa",
+                    "#8f6e29",	"#8f5829",	"#32498f",	"#28418f",
+                    "#606060",		"#606060",	
+                    "#8f6e29",	"#8f5829",	"#32498f",	"#28418f"
+
+                    ], 
+                  "intensity":14,
+                  "shadow":true,
+                  "position":{"x":-15, "y":25, "z": 20}},
+
+
+
+
+                  {"lightType":"Directional",
+                  "color": [
+                    "#8f5529",	"#8f3e29",	"#32608f",	"#285b8f",
+                    "#755842",	"#754d42",	"#496077",	"#425b75",
+                    "#a9510e",	"#a92e0e",	"#195fa7",	"#0d5aaa",
+                    "#8f6e29",	"#8f5829",	"#32498f",	"#28418f",
+                    "#606060",		"#606060",	
+                    "#8f6e29",	"#8f5829",	"#32498f",	"#28418f"
+                  ],
+                  "intensity":3,
+                  "shadow":false,
+                  "position":{"x":20, "y":10, "z": -10}},
+
+
+
+
+                  {"lightType":"Directional",
+                  "color": [
+                    "#ffffff"
+                  ],
+                  "intensity":0.0,
+                  "shadow":false,
+                  "position":{"x":30, "y":4, "z": 30}}
+
+                ],
+  "downloadImageSize" :{"width":3600,"height": 3600}
+
+}

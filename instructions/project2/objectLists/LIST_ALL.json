@@ -1,0 +1,26 @@
+{   
+    "name": "LIST_ALL", 
+    "objectList":  [
+        
+        
+            "TW01_H01",
+            "TW01_H02",
+            "TW01_H03",
+            "TW01_H04",
+            "TW01_H05",
+            "TW01_H06",
+            "TW01_H07",
+            "TW01_H08",
+            "TW01_H09",
+            "TW01_H10",
+            "TW01_H11A",
+            "TW01_H12"
+
+
+
+
+        
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

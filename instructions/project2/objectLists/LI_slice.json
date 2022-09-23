@@ -1,0 +1,19 @@
+{   
+    "name": "LI_slice", 
+    "objectList":  [
+        "0_slice_01",
+        "0_slice_02",
+        "0_slice_03",
+        "0_slice_04",
+        "0_slice_05",
+        "0_slice_06",
+        "0_slice_07",
+        "0_slice_08"
+       
+       
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

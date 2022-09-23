@@ -1,0 +1,10 @@
+{   
+    "name": "TER", 
+    "objectList":  [
+        "TR_01.glb"
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

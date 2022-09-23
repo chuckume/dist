@@ -1,0 +1,59 @@
+{   
+    "containerName": "XL03_TR", 
+    "containerStructureShape": "x4_y4_z4_m0_rF", 
+    "objectData":{
+        "objectPosition":[
+
+                                	"2_2_0",	"3_2_0",
+
+            "0_2_2",	"1_2_2",	
+            "0_2_3",	"1_2_3",	"2_2_3",	"3_2_3"
+            
+                                    
+            
+            ], 
+        "objectList":   [
+            
+            "LIST_TER",
+            "LIST_TER",
+            "LIST_TER",
+            "LIST_TER",
+          
+            "LIST_TER_CU"
+            
+            
+
+            
+        
+        ],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "colorData" : {
+        "colorList":["edc4b3","e6b8a2","deab90","d69f7e","cd9777","c38e70","b07d62","9d6b53","8a5a44","774936"],
+        "isReusable":false,
+        "isRandom":true
+    },
+    "rotationData" :{
+        "x": {
+            "rotationList":[0],
+            "isRandom": false, 
+            "isReusable":false
+            },
+        "y": {
+            "rotationList":[0],
+            "isRandom": false, 
+            "isReusable":false
+            },
+        "z": {
+            "rotationList":[0],
+            "isRandom": false, 
+            "isReusable":false
+            }
+    }
+}
+
+
+
+
+

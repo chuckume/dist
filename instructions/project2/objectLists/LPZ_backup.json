@@ -1,0 +1,16 @@
+{   
+    "name": "LPZ_backup", 
+    "objectList":  [
+        "PZ_01.glb",
+        "PZ_02.glb",
+        "PZ_03.glb",
+        "PZ_04.glb",
+        "PZ_05.glb",
+        "PZ_06.glb",
+        "PZ_07.glb",
+        "PZ_08.glb"
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}

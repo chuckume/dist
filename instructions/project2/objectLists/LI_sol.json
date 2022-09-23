@@ -1,0 +1,19 @@
+{   
+    "name": "LI_sol", 
+    "objectList":  [
+        "0_sol_01",
+        "0_sol_02",
+        "0_sol_03",
+        "0_sol_04",
+        "0_sol_05",
+        "0_sol_06",
+        "0_sol_07",
+        "0_sol_08"
+       
+       
+    
+       
+    ],
+    "isReusable":false,
+    "isRandom":true
+}
