@@ -1,7 +1,0 @@
-{
-    "finalContainerName":"zz_scene",
-    "fxhashProjectName":"NewTerritories",
-    "containerList":"./instructions/config/containerList.json",
-    "objectFolder":"instructions/objectLists/",
-    "objectNames":"./instructions/config/objectNames.json"
-}

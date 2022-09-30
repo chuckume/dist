@@ -1,0 +1,20 @@
+{
+    "name" : "list-v2-mod-high",
+    "objectList":  [
+    
+        "02_mod_high_01.glb",
+        "02_mod_high_02.glb",
+        "02_mod_high_03.glb",
+        "02_mod_high_04.glb",
+        "02_mod_high_05.glb",
+        "02_mod_high_06.glb",
+        "02_mod_high_07.glb",
+        "02_mod_high_08.glb",
+        "02_mod_high_09.glb",
+        "02_mod_high_10.glb"
+       
+   
+],
+    "isReusable":false,
+    "isRandom":true
+}

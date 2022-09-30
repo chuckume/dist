@@ -1,0 +1,14 @@
+{
+    "name" : "list-v2-str-low",
+    "objectList":  [
+    
+        "02_str_low_01.glb",
+        "02_str_low_02.glb",
+        "02_str_low_03.glb",
+        "02_str_low_04.glb"
+
+   
+],
+    "isReusable":false,
+    "isRandom":true
+}
